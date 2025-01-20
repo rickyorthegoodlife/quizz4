@@ -1,0 +1,19 @@
+@tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    .gradient-bg {
+      @apply bg-gradient-to-r from-primary via-secondary to-accent;
+    }
+
+    .card {
+      @apply bg-white rounded-xl shadow-lg p-6;
+    }
+
+    .btn-primary {
+      @apply bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary/90 transition-all;
+    }
+
+    .btn-secondary {
+      @apply bg-secondary text-white px-6 py-2 rounded-lg hover:bg-secondary/90 transition-all;
+    }
